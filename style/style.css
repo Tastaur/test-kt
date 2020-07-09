@@ -2,13 +2,13 @@
 @font-face{
     font-family: Gilory;
     src: url(fonts/Gilroy-Regular.ttf);
-    
+
 }
 /* Убираем стрелки у инпутов */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
-    margin: 0;    
+    margin: 0;
 }
 input[type='number'] {
     -moz-appearance: textfield;
@@ -105,9 +105,7 @@ a{
 
 
 }
-.header-navbar a:hover{
-    border-bottom: 1px solid black;
-}
+
 .header-button{
     padding: 12px 40px;
     width: 216px;
@@ -188,7 +186,7 @@ a{
 }
 .inform-section .title{
     margin-top: 100px;
-    width: 630px; 
+    width: 630px;
     margin-bottom: 25px;
 }
 .inform-section .subtitle{
@@ -336,7 +334,7 @@ a{
     height: 495px;
     background-image: url(image/AboutSection/form-background.png);
     display: flex;
-    
+
 }
 .form-img{
     cursor: url('image/cursosr.png'), auto;
@@ -766,12 +764,12 @@ a{
         margin-top: 50px;
         padding-top: 0px;
     }
-    
+
     .technology-container-present-item {
         margin-right: 15px;
         width: 310px;
         height: 100px;
-    }    
+    }
     .work-row {
         margin-bottom: 40px;
         display: block;
@@ -787,7 +785,7 @@ a{
         padding-left: 25px;
     }
     .price-input-button {
- 
+
         width: 252px;
     }
 
@@ -813,5 +811,5 @@ a{
     .footer-wrapper {
         margin-left: 30px;
     }
-    
+
 }

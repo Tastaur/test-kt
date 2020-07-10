@@ -115,7 +115,6 @@ a{
     font-weight: bold;
     font-size: 14px;
     line-height: 24px;
-
 }
 /* MeetSection */
 .meet-section{
@@ -780,6 +779,11 @@ a{
     .work-section {
         margin-top: 0;
     }
+    .work-img-wrapper {
+        margin-right: 0;
+        width: 700px;
+    }
+        
     .price-input {
         width: 232px;
         padding-left: 25px;
@@ -806,10 +810,25 @@ a{
     }
     .footer-description {
         display: flex;
-        margin-right: -60px;
+        margin-right: -39px;
+        width: 900px;
+        justify-content: space-evenly;
     }
     .footer-wrapper {
         margin-left: 30px;
     }
-
+    .second-team-block-button {
+        bottom: 0;
+        z-index: 5;
+        height: 40px;
+    }
+    .footer-description-block {
+        margin-right: 0;
+    }
+    .team-second-item .elipse-small {
+       display: none;
+    }
+    .team-second-item .elipse-big {
+        display: none;
+    }
 }

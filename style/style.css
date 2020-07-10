@@ -831,4 +831,9 @@ a{
     .team-second-item .elipse-big {
         display: none;
     }
+    .third-arrow {
+        top: 90px;
+        opacity: 0.3;
+        left: 910px;
+    }
 }

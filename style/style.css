@@ -107,7 +107,6 @@ a{
 }
 
 .header-button{
-    padding: 12px 40px;
     width: 216px;
     background: none;
     border: 2px solid #333333;
@@ -115,6 +114,7 @@ a{
     font-weight: bold;
     font-size: 14px;
     line-height: 24px;
+    height: 48px;
 }
 /* MeetSection */
 .meet-section{
@@ -419,12 +419,15 @@ a{
     background: #EFF7FF;
     border-radius: 5px;
     margin-right: 15px;
-    padding: 14px 26px;
     font-weight: 600;
+    display: flex;
     font-size: 18px;
     line-height: 28px;
     color: #3454F5;
-    max-width: 96px;
+    width: 96px;
+    justify-content: center;
+    height: 56px;
+    align-items: center;
 }
 .work-description-item-subtitle{
     font-weight: 600;
@@ -432,16 +435,11 @@ a{
     line-height: 24px;
     width: 226px;
 }
-.long-static{
-    padding: 14px 20px;
 
-}
 .long-subtitle{
     width: 294px;
 }
-.short-static{
-    padding: 14px 43px;
-}
+
 .last-row{
     margin-bottom: 20px;
 }

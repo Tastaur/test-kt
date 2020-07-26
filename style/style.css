@@ -107,6 +107,7 @@ a{
 }
 
 .header-button{
+    height: 48px;    
     width: 216px;
     background: none;
     border: 2px solid #333333;
@@ -114,7 +115,6 @@ a{
     font-weight: bold;
     font-size: 14px;
     line-height: 24px;
-    height: 48px;
 }
 /* MeetSection */
 .meet-section{
